@@ -1,7 +1,7 @@
 {
   "name": "@timkendrick/scenario-builder",
   "version": "0.0.1",
-  "description": "Test scenario builder for JavaScript projects",
+  "description": "Unit test scenario builder for JavaScript projects",
   "main": "lib/index.js",
   "scripts": {
     "prepush": "npm test",

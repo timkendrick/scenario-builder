@@ -2,7 +2,7 @@
 [![npm version](https://img.shields.io/npm/v/@timkendrick/scenario-builder.svg)](https://www.npmjs.com/package/@timkendrick/scenario-builder)
 ![Stability](https://img.shields.io/badge/stability-stable-brightgreen.svg)
 
-> Test scenario builder for JavaScript projects
+> Unit test scenario builder for JavaScript projects
 
 Write comprehensive unit test suites quickly and declaratively without any of the repetitive boilerplate.
 
@@ -65,6 +65,10 @@ Snapshots:   0 total
 Time:        0.115s, estimated 1s
 ```
 
+## Requirements
+
+This package is compatible with test runners that provide the `describe()`, `it()` and `beforeEach()` global helpers.
+
 ## Usage
 
 ### `scenarioBuilder(fn)`
@@ -83,7 +87,7 @@ Returns:
 
 ### `scenarioBuilder(fn)(description, options)`
 
-Given a pre-bound test scenario generator, create a new Jest test block (via `describe()`) that runs an individual scenario to assert results for the specified input.
+Given a pre-bound test scenario generator, create a new `describe()` test suite that runs an individual scenario to assert results for the specified input.
 
 Arguments:
 
