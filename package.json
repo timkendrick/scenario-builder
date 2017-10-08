@@ -1,0 +1,28 @@
+{
+  "name": "@timkendrick/scenario-builder",
+  "version": "0.0.1",
+  "description": "Test scenario builder for JavaScript projects",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepush": "npm test",
+    "test": "eslint lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timkendrick/scenario-builder.git"
+  },
+  "author": "Tim Kendrick <timkendrick@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timkendrick/scenario-builder/issues"
+  },
+  "homepage": "https://github.com/timkendrick/scenario-builder#readme",
+  "devDependencies": {
+    "@timkendrick/eslint-config": "^1.0.0",
+    "eslint": "^4.0.0",
+    "husky": "^0.14.0"
+  }
+}
